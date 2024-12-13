@@ -3,17 +3,21 @@ package org.ticketmanager.ticketmanagerapplication.threads;
 
 import org.ticketmanager.ticketmanagerapplication.core.AbstractTicketHandler;
 import org.ticketmanager.ticketmanagerapplication.core.TicketPool;
+import org.ticketmanager.ticketmanagerapplication.core.TicketRetrievalStrategy;
 import org.ticketmanager.ticketmanagerapplication.logging.Logger;
 
 public class Customer extends AbstractTicketHandler implements Runnable {
-    public Customer(TicketPool ticketPool) {
-        super(ticketPool);
+    private final TicketRetrievalStrategy retrievalStrategy;
+
+    public Customer(TicketRetrievalStrategy retrievalStrategy) {
+        super(null); // TicketPool will be handled by the strategy
+        this.retrievalStrategy = retrievalStrategy;
     }
 
     @Override
     public void run() {
         while (true) {
-            String ticket = ticketPool.removeTicket();
+            String ticket = retrievalStrategy.retrieveTicket();
             if (ticket != null) {
                 Logger.log("Customer retrieved: " + ticket);
             } else {

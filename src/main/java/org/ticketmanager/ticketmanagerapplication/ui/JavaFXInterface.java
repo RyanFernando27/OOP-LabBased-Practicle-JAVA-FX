@@ -98,9 +98,9 @@ public class JavaFXInterface extends Application {
 
         // Start threads
         vendorThread = new Thread(new Vendor(ticketPool, config.getTicketReleaseRate()));
-        customerThread = new Thread(new Customer(ticketPool));
+//        customerThread = new Thread(new Customer(ticketPool));
         vendorThread.start();
-        customerThread.start();
+//        customerThread.start();
 
         updateStatus("System Running...");
     }

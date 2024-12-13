@@ -92,3 +92,53 @@
 2024-12-13T12:58:17.260955: Vendor added: Ticket-108259788019708
 2024-12-13T12:58:17.766550: Added ticket: Ticket-108260298406833
 2024-12-13T12:58:17.767824: Vendor added: Ticket-108260298406833
+2024-12-13T18:08:11.112554: Ticket VIP-2 removed from priority queue
+2024-12-13T18:08:11.112583: Customer retrieved: TICKET-3
+2024-12-13T18:08:11.116323: Customer retrieved: VIP-2
+2024-12-13T18:08:11.620787: Customer found no tickets available.
+2024-12-13T18:08:11.620808: Ticket VIP-4 removed from priority queue
+2024-12-13T18:08:11.621267: Customer retrieved: VIP-4
+2024-12-13T18:08:12.126511: Ticket VIP-6 removed from priority queue
+2024-12-13T18:08:12.126878: Customer retrieved: VIP-6
+2024-12-13T18:08:12.632309: Ticket VIP-8 removed from priority queue
+2024-12-13T18:08:12.632873: Customer retrieved: VIP-8
+2024-12-13T18:08:13.135071: Ticket VIP-10 removed from priority queue
+2024-12-13T18:08:13.135692: Customer retrieved: VIP-10
+2024-12-13T18:08:13.641471: Customer retrieved: TICKET-1
+2024-12-13T18:08:14.147951: Customer retrieved: TICKET-5
+2024-12-13T18:08:14.653071: Customer retrieved: TICKET-7
+2024-12-13T18:08:15.158643: Customer retrieved: TICKET-9
+2024-12-13T18:08:15.664445: Customer found no tickets available.
+2024-12-13T18:08:15.665678: System terminated.
+2024-12-13T18:14:46.603286: Starting system configuration...
+2024-12-13T18:14:53.133985: System configured successfully.
+2024-12-13T18:14:53.136831: Customer retrieved: TICKET-3
+2024-12-13T18:14:53.136952: Ticket VIP-2 removed from priority queue
+2024-12-13T18:14:53.137006: Added ticket: Ticket-127004273783541
+2024-12-13T18:14:53.137102: Customer retrieved: VIP-2
+2024-12-13T18:14:53.137198: Vendor added: Ticket-127004273783541
+2024-12-13T18:14:53.642464: Added ticket: Ticket-127004779401083
+2024-12-13T18:14:53.642375: Ticket VIP-4 removed from priority queue
+2024-12-13T18:14:53.642298: Customer found no tickets available.
+2024-12-13T18:14:53.643435: Customer retrieved: VIP-4
+2024-12-13T18:14:53.643816: Vendor added: Ticket-127004779401083
+2024-12-13T18:14:54.149493: Ticket VIP-6 removed from priority queue
+2024-12-13T18:14:54.150624: Customer retrieved: VIP-6
+2024-12-13T18:14:54.656299: Ticket VIP-8 removed from priority queue
+2024-12-13T18:14:54.657513: Customer retrieved: VIP-8
+2024-12-13T18:14:55.163273: Ticket VIP-10 removed from priority queue
+2024-12-13T18:14:55.164496: Customer retrieved: VIP-10
+2024-12-13T18:14:55.666880: Customer retrieved: TICKET-1
+2024-12-13T18:14:56.172753: Customer retrieved: TICKET-5
+2024-12-13T18:14:56.678477: Customer retrieved: TICKET-7
+2024-12-13T18:14:57.185076: Customer retrieved: TICKET-9
+2024-12-13T18:14:57.688019: Customer found no tickets available.
+2024-12-13T18:14:57.688972: System terminated.
+2024-12-13T18:16:55.813991: Added ticket: Ticket-127126951772541
+2024-12-13T18:16:55.815235: Vendor added: Ticket-127126951772541
+2024-12-13T18:16:56.321337: Added ticket: Ticket-127127459850958
+2024-12-13T18:16:56.322810: Vendor added: Ticket-127127459850958
+2024-12-13T18:17:45.014363: Added ticket: Ticket-127176152656875
+2024-12-13T18:17:45.015342: Vendor added: Ticket-127176152656875
+2024-12-13T18:17:45.520682: Added ticket: Ticket-127176659934541
+2024-12-13T18:17:45.521371: Vendor added: Ticket-127176659934541
