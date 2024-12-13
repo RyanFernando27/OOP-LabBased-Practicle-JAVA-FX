@@ -21,7 +21,14 @@ public class TicketPool implements TicketOperation {
 
     @Override
     public synchronized String removeTicket() {
-        return tickets.isEmpty() ? null : tickets.remove(0);
+        if (tickets.isEmpty()) {
+            Logger.log("No ticket to remove.");
+            return null;
+        } else {
+            String removedTicket = tickets.remove(0);
+            Logger.log("Removed ticket: " + removedTicket);
+            return removedTicket;
+        }
     }
 
     public int getTicketCount() {
